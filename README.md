@@ -1,8 +1,8 @@
 # todolister
 
-A small shell script that scans a folder of text files and copies any line that contains the "@todo" string into a new text file. Adds links to other notes, using NVAlt internal link conventions. 
+A small shell script that scans a folder of text files and copies any line that contains the "@todo" string into a new text file. Adds links to other notes, using NVAlt internal link conventions. I'm not great at shell scripts and there are probably many ways to do this more elegantly (but then, that's what pull requests are for, right?). Would love to hear from other folks how to improve this. 
 
-Created to work with NVAlt on OSX, http://brettterpstra.com/projects/nvalt/
+I made this to work with NVAlt, which I use for *everything*, on OSX, http://brettterpstra.com/projects/nvalt/
 
 Installation instructions
 * Update the shell script to specify your notes folder, your preferred file ending, and output file name
