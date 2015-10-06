@@ -17,5 +17,5 @@ sed '/.*/ i\
 ...................................................................................
 '
 egrep '@todo' "$file" 
-done > todos.taskpaper
-
+done > todos.temp
+cp todos.temp todos.taskpaper
